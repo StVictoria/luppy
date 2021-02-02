@@ -1,0 +1,49 @@
+.info {
+  display: flex;
+  justify-content: center;
+  padding: 104px 0;
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    width: 488px;
+    height: 814px;
+    border: 1px solid #000000;
+    box-shadow: 18px 18px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 16px;
+    padding: 25px 36px 0 30px;
+    box-sizing: border-box;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  h2 {
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  &__predescription {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .card_reverse {
+    padding: 0 25px 40px 30px;
+    overflow: hidden;
+  }
+
+  &__dog_img {
+    width: 616px;
+    height: 717px;
+    margin-left: -43px;
+    margin-top: 1px;
+  }
+
+  &__hands_img {
+    width: 570px;
+    height: 430px;
+    margin-left: -54px;
+  }
+}
