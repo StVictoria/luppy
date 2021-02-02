@@ -1,0 +1,16 @@
+@import "../variables/variables.scss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $mainFont;
+  font-size: $mediumSize;
+  line-height: 30px;
+}
+
+button {
+  background-color: inherit;
+  outline: none;
+  border: none;
+}

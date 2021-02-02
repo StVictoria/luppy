@@ -1,0 +1,45 @@
+@import "../variables/variables.scss";
+
+.banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: $yellow;
+  overflow: hidden;
+
+  &__main_content {
+    padding-top: 35px;
+
+    h1 {
+      width: 450px;
+      font-size: 72px;
+      font-family: "Montserrat Alternates", sans-serif;
+      font-weight: 900;
+      color: $darkBlue;
+      line-height: 64px;
+      margin-bottom: 30px;
+    }
+
+    p {
+      width: 456px;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__header {
+    margin-bottom: 135px;
+  }
+
+  &__button {
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 20px;
+  }
+
+  &__image {
+    margin-bottom: -10px;
+  }
+}
