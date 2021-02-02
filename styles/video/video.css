@@ -1,0 +1,43 @@
+.video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 70px;
+}
+
+.video__content {
+  position: relative;
+  width: 1006px;
+  height: 730px;
+  background: url("/assets/portrait-woman-with-her-beautiful-dog 1.png") top center/cover no-repeat;
+}
+
+.video__content h2 {
+  width: 453px;
+  font-size: 52px;
+  line-height: 55px;
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.video__description {
+  position: absolute;
+  top: 164px;
+  left: 98px;
+}
+
+.video__button {
+  width: 155px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=video.css.map */
