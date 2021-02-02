@@ -1,0 +1,40 @@
+.application {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background-color: #edeff0;
+  padding-right: 154px;
+}
+
+.application__content {
+  position: relative;
+  width: 420px;
+  padding: 135px 0;
+}
+
+.application__content h2 {
+  font-size: 48px;
+  line-height: 55px;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.application__content p {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+.application__content a:not(:last-child) {
+  margin-right: 30px;
+}
+
+.application__image {
+  position: absolute;
+  top: -43px;
+  left: -695px;
+}
+/*# sourceMappingURL=application.css.map */
