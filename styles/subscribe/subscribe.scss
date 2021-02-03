@@ -1,0 +1,48 @@
+.subscribe {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 107px 0;
+
+  &__card {
+    display: flex;
+    justify-content: space-between;
+    width: 1006px;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 60px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  &__info {
+    width: 50%;
+
+    input {
+      border: none;
+      border-bottom: 1px solid black;
+      font-size: 18px;
+      font-weight: 300;
+      padding: 15px 0;
+      margin: 30px 0 35px 0;
+    }
+  }
+
+  &__email {
+    a {
+      color: #5c0079;
+      text-decoration: none;
+    }
+  }
+
+  &__image {
+    position: absolute;
+    top: 179px;
+    right: 341px;
+    width: 500px;
+    height: 430px;
+    background: url("/assets/house-hand.svg") center center / contain no-repeat;
+    z-index: -1;
+  }
+}

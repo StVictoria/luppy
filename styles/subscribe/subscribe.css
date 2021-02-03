@@ -1,0 +1,58 @@
+.subscribe {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 107px 0;
+}
+
+.subscribe__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1006px;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 60px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+.subscribe__info {
+  width: 50%;
+}
+
+.subscribe__info input {
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 15px 0;
+  margin: 30px 0 35px 0;
+}
+
+.subscribe__email a {
+  color: #5c0079;
+  text-decoration: none;
+}
+
+.subscribe__image {
+  position: absolute;
+  top: 179px;
+  right: 341px;
+  width: 500px;
+  height: 430px;
+  background: url("/assets/house-hand.svg") center center/contain no-repeat;
+  z-index: -1;
+}
+/*# sourceMappingURL=subscribe.css.map */

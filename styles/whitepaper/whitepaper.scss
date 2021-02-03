@@ -2,7 +2,8 @@
 
 .whitepaper {
   background-color: $lightGrey;
-  padding: 129px 30px 100px 120px;
+  padding: 129px 30px 100px 330px;
+  box-sizing: border-box;
   overflow: hidden;
 
   h2 {
@@ -37,7 +38,7 @@
       position: absolute;
       top: 14px;
       left: 30px;
-      width: 486px;
+      width: 478px;
       border-bottom: 1px dashed black;
     }
   }
