@@ -1,14 +1,5 @@
 .subscribe {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding: 107px 0;
 }
 
@@ -19,7 +10,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 1006px;
   border: 1px solid black;
   border-radius: 16px;
   padding: 60px;

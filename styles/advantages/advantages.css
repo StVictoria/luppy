@@ -2,9 +2,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 155px 30px;
 }
 
@@ -33,9 +33,5 @@
 .advantages__card p {
   font-size: 16px;
   width: 290px;
-}
-
-.advantages__card:not(:last-child) {
-  margin-right: 3%;
 }
 /*# sourceMappingURL=advantages.css.map */

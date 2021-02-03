@@ -1,11 +1,14 @@
 @import "../variables/variables.scss";
 
 .banner {
-  display: flex;
-  justify-content: center;
   width: 100%;
   background-color: $yellow;
   overflow: hidden;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
 
   &__main_content {
     padding-top: 35px;

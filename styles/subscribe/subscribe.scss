@@ -1,14 +1,10 @@
 .subscribe {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 107px 0;
 
   &__card {
     display: flex;
     justify-content: space-between;
-    width: 1006px;
     border: 1px solid black;
     border-radius: 16px;
     padding: 60px;
