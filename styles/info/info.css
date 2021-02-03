@@ -31,11 +31,6 @@
   margin-right: 30px;
 }
 
-.info h2 {
-  font-size: 48px;
-  font-weight: 700;
-}
-
 .info__predescription {
   font-size: 24px;
   font-weight: 500;
@@ -50,7 +45,7 @@
   width: 616px;
   height: 717px;
   margin-left: -43px;
-  margin-top: 1px;
+  margin-top: -24px;
 }
 
 .info__hands_img {

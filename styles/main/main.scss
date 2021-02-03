@@ -17,6 +17,23 @@ button {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   margin: 0;
+}
+
+h1 {
+  width: 450px;
+  font-size: 72px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 900;
+  color: $darkBlue;
+  line-height: 64px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 700;
 }

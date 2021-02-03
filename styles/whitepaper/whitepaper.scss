@@ -1,0 +1,49 @@
+@import "../variables/variables.scss";
+
+.whitepaper {
+  background-color: $lightGrey;
+  padding: 129px 30px 100px 120px;
+  overflow: hidden;
+
+  h2 {
+    margin-bottom: 50px;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+
+    h4 {
+      margin: 10px 0;
+    }
+  }
+
+  &__yearIcon {
+    position: relative;
+    &.house {
+      width: 29px;
+      height: 29px;
+      background: url("/assets/house-dog.png") center center / contain no-repeat;
+    }
+    &.circle {
+      width: 29px;
+      height: 29px;
+      border: 1px solid black;
+      border-radius: 50%;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 14px;
+      left: 30px;
+      width: 486px;
+      border-bottom: 1px dashed black;
+    }
+  }
+
+  &__description {
+    width: 312px;
+    margin: 0;
+  }
+}

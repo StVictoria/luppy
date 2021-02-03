@@ -1,0 +1,54 @@
+.whitepaper {
+  background-color: #edeff0;
+  padding: 129px 30px 100px 120px;
+  overflow: hidden;
+}
+
+.whitepaper h2 {
+  margin-bottom: 50px;
+}
+
+.whitepaper__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.whitepaper__content h4 {
+  margin: 10px 0;
+}
+
+.whitepaper__yearIcon {
+  position: relative;
+}
+
+.whitepaper__yearIcon.house {
+  width: 29px;
+  height: 29px;
+  background: url("/assets/house-dog.png") center center/contain no-repeat;
+}
+
+.whitepaper__yearIcon.circle {
+  width: 29px;
+  height: 29px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.whitepaper__yearIcon::after {
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: 30px;
+  width: 486px;
+  border-bottom: 1px dashed black;
+}
+
+.whitepaper__description {
+  width: 312px;
+  margin: 0;
+}
+/*# sourceMappingURL=whitepaper.css.map */
