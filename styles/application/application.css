@@ -42,4 +42,21 @@
   top: -43px;
   left: -695px;
 }
+
+@media (max-width: 1106px) {
+  .application__image {
+    left: -625px;
+  }
+}
+
+@media (max-width: 930px) {
+  .application__content {
+    width: 60%;
+  }
+  .application__image {
+    -webkit-transform: rotate(17deg);
+            transform: rotate(17deg);
+    left: -580px;
+  }
+}
 /*# sourceMappingURL=application.css.map */

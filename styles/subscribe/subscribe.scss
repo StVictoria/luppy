@@ -1,10 +1,12 @@
 .subscribe {
-  position: relative;
-  padding: 107px 0;
+  padding-top: 107px;
+  padding-bottom: 107px;
 
   &__card {
+    position: relative;
     display: flex;
     justify-content: space-between;
+    width: 100%;
     border: 1px solid black;
     border-radius: 16px;
     padding: 60px;
@@ -34,8 +36,8 @@
 
   &__image {
     position: absolute;
-    top: 179px;
-    right: 341px;
+    bottom: -21px;
+    right: 0;
     width: 500px;
     height: 430px;
     background: url("/assets/house-hand.svg") center center / contain no-repeat;

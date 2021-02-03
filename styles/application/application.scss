@@ -36,3 +36,22 @@
     left: -695px;
   }
 }
+
+@media (max-width: 1106px) {
+  .application__image {
+    left: -625px;
+  }
+}
+
+@media (max-width: 930px) {
+  .application {
+    &__content {
+      width: 60%;
+    }
+
+    &__image {
+      transform: rotate(17deg);
+      left: -580px;
+    }
+  }
+}

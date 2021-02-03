@@ -39,6 +39,21 @@ h2 {
 }
 
 .container {
-  width: 1006px;
+  width: 1106px;
   margin: 0 auto;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1106px) {
+  .container {
+    width: 910px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 930px) {
+  .container {
+    width: 100%;
+  }
 }

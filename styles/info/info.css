@@ -5,7 +5,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 104px 0;
+  padding-top: 104px;
+  padding-bottom: 104px;
 }
 
 .info__card {
@@ -16,7 +17,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 488px;
+  width: 48%;
   height: 814px;
   border: 1px solid #000000;
   -webkit-box-shadow: 18px 18px 24px rgba(0, 0, 0, 0.08);
@@ -40,13 +41,22 @@
 .info__dog_img {
   width: 616px;
   height: 717px;
-  margin-left: -43px;
-  margin-top: -21px;
+  margin-left: -48px;
+  margin-top: -24px;
 }
 
 .info__hands_img {
   width: 570px;
   height: 430px;
   margin-left: -54px;
+}
+
+@media (max-width: 1106px) {
+  .info__dog_img {
+    width: 531px;
+    height: 620px;
+    margin-left: -44px;
+    margin-top: -75px;
+  }
 }
 /*# sourceMappingURL=info.css.map */
