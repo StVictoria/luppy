@@ -48,3 +48,33 @@
     margin-top: -75px;
   }
 }
+
+@media (max-width: 930px) {
+  .info {
+    flex-direction: column;
+
+    &__card {
+      width: 100%;
+      height: 550px;
+
+      &:not(:last-child) {
+        margin-bottom: 45px;
+      }
+    }
+
+    &__main_content.pet_sitter {
+      text-align: right;
+    }
+
+    &__dog_img {
+      width: 475px;
+      margin-left: 262px;
+      margin-top: -204px;
+      z-index: 2;
+    }
+
+    &__description.second {
+      width: 60%;
+    }
+  }
+}
